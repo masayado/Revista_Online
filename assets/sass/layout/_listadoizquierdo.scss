@@ -9,16 +9,16 @@
     }
 
 .listado__titulo{
-    margin-bottom: 10px;      
+    margin-bottom: 15px;      
     }
 
 .listado__parrafo{
-    margin-bottom:10px;
+    margin-bottom:15px;
     }
 
 .main-tags{
-    margin-bottom: 10px;
-
+    margin-bottom: 15px;
+    
 &__titulo{
     margin-bottom: 15px;      
     }
@@ -29,8 +29,32 @@
     display:inline;
     background-color: steelblue;
     list-style-type: none;
-    margin-bottom:10px;
+    margin-bottom:20px;
     
     }
+}
+
+.tags__box{
+    border-bottom: 1px solid gray;
+}
+
+.noticias-destacadas{
+    padding-top:15px;
+
+&__titulo{
+    margin-bottom:15px;
+}
+
+&__item{
+
+}
+
+&__descripcion{
+    margin-bottom:12px;
+}
+
+&__img{
+    margin-bottom:12px;
+}
 }
       
