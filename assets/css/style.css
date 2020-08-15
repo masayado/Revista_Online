@@ -18,7 +18,7 @@ body {
 .menu {
   grid-column: 1/3;
   grid-row: 1/2;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .main {
@@ -30,16 +30,9 @@ body {
 .aside {
   grid-column: 2/3;
   grid-row: 2/3;
-  border: 1px solid black;
 }
 
-.article {
-  grid-column: 2/3;
-  grid-row: 3/4;
-  border: 1px solid black;
-}
-
-.newsletter {
+.main-newsletter {
   grid-column: 1/3;
   grid-row: 4/5;
   border: 1px solid black;
@@ -65,7 +58,6 @@ body {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  display: inline-block;
 }
 
 .menu__links {
@@ -79,8 +71,70 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.menu__links .menu__input {
+
+.menu__input {
   border-radius: 30px;
+}
+
+.main {
+  width: 740px;
+}
+
+.aside {
+  width: 220px;
+  float: right;
+  padding: 10px;
+}
+
+.listado {
+  border-bottom: 1px solid gray;
+}
+
+.listado__titulo {
+  margin-bottom: 10px;
+}
+
+.listado__parrafo {
+  margin-bottom: 10px;
+}
+
+.main-tags {
+  margin-bottom: 10px;
+}
+.main-tags__titulo {
+  margin-bottom: 15px;
+}
+.main-tags__links li {
+  color: white;
+  padding: 3px;
+  display: inline;
+  background-color: steelblue;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.main-newsletter {
+  width: 960px;
+  background-color: #f2f4f5;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main-newsletter__titulo {
+  font-size: 24px;
+}
+.main-newsletter__parrafo {
+  font-size: 12px;
+}
+.main-newsletter__button input, .main-newsletter button {
+  display: inline-block;
+  border-width: 0;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.main-newsletter__button button {
+  background-color: coral;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
