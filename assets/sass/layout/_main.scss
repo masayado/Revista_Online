@@ -1,3 +1,33 @@
-.main{
+.main-noticias{
     width: 740px;
+    padding:10px;
 }
+
+.listad-noticias{
+    width: 700px;
+    float: left;
+
+&__noticia{
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    }
+
+&__cabecera{
+
+    }
+
+&__cuerpo img{
+    width: 210px;
+    height: 350px;
+    margin-top:25px;
+    margin-bottom:15px;
+    }
+
+&__cuerpo p{
+    margin-bottom:25px;
+}
+
+}
+
