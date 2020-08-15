@@ -1,0 +1,33 @@
+.menu {
+    width: 960px;
+    padding: 10px;
+    display: flex;  
+    flex-wrap: wrap;
+    align-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid gray
+
+}
+
+.menu__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.menu__links {
+    float: right;
+    width: 840px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu__links {
+    text-decoration: none;
+    text-transform: uppercase;
+
+.menu__input {
+    border-radius: 30px;
+}
+}
