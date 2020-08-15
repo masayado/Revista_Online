@@ -125,16 +125,26 @@ body {
 }
 .main-newsletter__parrafo {
   font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .main-newsletter__button input, .main-newsletter button {
   display: inline-block;
   border-width: 0;
   font-size: 13px;
   padding: 5px 10px;
+  margin-top: 10px;
 }
 .main-newsletter__button button {
   background-color: coral;
   color: white;
+}
+
+.footer {
+  width: 960px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
