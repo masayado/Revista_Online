@@ -1,5 +1,5 @@
 .main-newsletter{
-    width: 60rem;
+    width: 100%;
     background-color: #f2f4f5;
     text-align: center;
     padding-top: 1.875rem;
@@ -7,13 +7,13 @@
 
 &__titulo{
     font-size: 1.5rem
-}    
+    }    
 
 &__parrafo{
     font-size:0.75rem;
     margin-top:0.3125rem;
     margin-bottom:0.3125rem;
-}
+    }
 
 &__button input, button{
     display: inline-block;
@@ -21,11 +21,22 @@
     font-size: 0.8125rem;
     padding: 0.3125rem 0.625rem;
     margin-top:0.625rem;
-}
+    }
 
 &__button button{
     background-color: coral;
     color: white;
     }
+    
+    @media screen and (max-width: 768px){
+        .main-newsletter__titulo{
+            font-size: 1.25rem;
+        }
+    }
 
+    @media screen and (max-width: 768px){
+        .main-newsletter__parrafo{
+            margin: 1.25rem;
+        }
+    }
 }
