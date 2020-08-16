@@ -23,6 +23,10 @@
     margin:0 auto;
     grid-column: 1 / 4;
     grid-row: 2 / 3;
+    @media only screen and (max-width:550px){
+        width:100%;
+        grid-template-columns:1fr;
+        }
     }
 
 .aside{
