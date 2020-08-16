@@ -1,48 +1,48 @@
 .aside{
-    width: 220px;
+    width: 13.75rem;
     float: right;
-    padding:10px;
+    padding:0.625rem;
     }   
 
 .listado{
-    border-bottom: 1px solid gray;
+    border-bottom: 0.0625rem solid gray;
     }
 
 .listado__titulo{
-    margin-bottom: 15px;      
+    margin-bottom: 0.9375rem;      
     }
 
 .listado__parrafo{
-    margin-bottom:15px;
+    margin-bottom:0.9375rem;
     }
 
 .main-tags{
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     
 &__titulo{
-    margin-bottom: 15px;      
+    margin-bottom: 0.9375rem;      
     }
 
 &__links li{
     color: white;
-    padding:3px;
+    padding:0.1875rem;
     display:inline;
     background-color: steelblue;
     list-style-type: none;
-    margin-bottom:20px;
+    margin-bottom:1.25rem;
     
     }
 }
 
 .tags__box{
-    border-bottom: 1px solid gray;
+    border-bottom: 0.0625rem solid gray;
 }
 
 .noticias-destacadas{
-    padding-top:15px;
+    padding-top:0.9375rem;
 
 &__titulo{
-    margin-bottom:15px;
+    margin-bottom:0.9375rem;
 }
 
 &__item{
@@ -50,11 +50,11 @@
 }
 
 &__descripcion{
-    margin-bottom:12px;
+    margin-bottom:0.75rem;
 }
 
 &__img{
-    margin-bottom:12px;
+    margin-bottom:0.75rem;
 }
 }
       

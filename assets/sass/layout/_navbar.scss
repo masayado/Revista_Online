@@ -1,16 +1,16 @@
 .menu {
     width: 100%;
-    padding: 15px;
+    padding: 0.9375rem;
     display: flex;  
     flex-wrap: wrap;
     align-content:space-between;
     align-items: center;
-    border-bottom: 1px solid gray
+    border-bottom: 0.0625rem solid gray
 
 }
 
 .menu__title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
 
@@ -18,7 +18,7 @@
 
 .menu__links {
     float: right;
-    width: 840px;
+    width: 52.5rem;
     text-align: right;
     list-style-type: none;
 }
@@ -30,5 +30,5 @@
 
 
 .menu__input {
-    border-radius: 30px;
+    border-radius: 1.875rem;
 }
