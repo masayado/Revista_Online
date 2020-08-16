@@ -25,9 +25,16 @@
 .menu__links {
     text-decoration: none;
     text-transform: uppercase;
+    
     }
 
 
 .menu__input {
     border-radius: 1.875rem;
+}
+
+@media only screen and (max-width:550px){
+    .menu__links-2{
+    display:none;
+    }
 }
